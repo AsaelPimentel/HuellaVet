@@ -1,0 +1,8 @@
+Usuario y ontraseña del admin
+
+Asael 
+12345
+
+Usuario y contraseña de usuario normal
+Asael.pimentel
+Pimentel19x

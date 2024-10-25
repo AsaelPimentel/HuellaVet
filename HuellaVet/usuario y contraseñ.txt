@@ -1,0 +1,4 @@
+usuario    asael
+Contraseña 12345
+
+el campo de las tabla de la base de datos dde proudctos es varbinary asi que para guardarlo se debe convertir la cadena en bit y subirlo como bit y para consultarlo debe ser traerlo como bit y convertilo a cadena

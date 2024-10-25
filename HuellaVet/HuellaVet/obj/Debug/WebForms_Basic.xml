@@ -1,0 +1,3416 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HuellaVet
+</name>
+</assembly>
+<members>
+<member name="T:HuellaVet.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HuellaVet.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:HuellaVet.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:HuellaVet.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:HuellaVet.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:HuellaVet.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:HuellaVet._Default._TablaHorario">
+<summary>
+Control TablaHorario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._lblNombre">
+<summary>
+Control lblNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtNombre">
+<summary>
+Control txtNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._lblCorreo">
+<summary>
+Control lblCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtCorreo">
+<summary>
+Control txtCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._lblContrasena">
+<summary>
+Control lblContrasena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtContrasena">
+<summary>
+Control txtContrasena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._btnIniciarSesion">
+<summary>
+Control btnIniciarSesion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._DS_LoginUser">
+<summary>
+Control DS_LoginUser.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtRegNombre">
+<summary>
+Control txtRegNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtRegApellidoPaterno">
+<summary>
+Control txtRegApellidoPaterno.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtRegApellidoMaterno">
+<summary>
+Control txtRegApellidoMaterno.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtRegDireccion">
+<summary>
+Control txtRegDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtRegTelefono">
+<summary>
+Control txtRegTelefono.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtRegCorreo">
+<summary>
+Control txtRegCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._txtRegContrasena">
+<summary>
+Control txtRegContrasena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login._BtnCrearCuenta">
+<summary>
+Control BtnCrearCuenta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._ControlPanel">
+<summary>
+Control ControlPanel.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._BtnAdminEmpleados">
+<summary>
+Control BtnAdminEmpleados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._LblAdminEmpleados">
+<summary>
+Control LblAdminEmpleados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._BtnAdminUsuarios">
+<summary>
+Control BtnAdminUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._LblAdminUsuarios">
+<summary>
+Control LblAdminUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._BtnAdminProductos">
+<summary>
+Control BtnAdminProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._LblAdminProductos">
+<summary>
+Control LblAdminProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._BtnAdminFarmacos">
+<summary>
+Control BtnAdminFarmacos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._LblAdminFarmacos">
+<summary>
+Control LblAdminFarmacos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._BtnAdminMascotas">
+<summary>
+Control BtnAdminMascotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Administracion._LblAdminMascotas">
+<summary>
+Control LblAdminMascotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._LblFechaInicio">
+<summary>
+Control LblFechaInicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._TxtFechaSeleccionada">
+<summary>
+Control TxtFechaSeleccionada.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._LblSelectHora">
+<summary>
+Control LblSelectHora.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._TxtSelectHora">
+<summary>
+Control TxtSelectHora.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._LblSelectPropietarios">
+<summary>
+Control LblSelectPropietarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._Ddl_SelectPropietario">
+<summary>
+Control Ddl_SelectPropietario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._DS_Propietario">
+<summary>
+Control DS_Propietario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._LblSelectMascota">
+<summary>
+Control LblSelectMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._Ddl_SelectMascota">
+<summary>
+Control Ddl_SelectMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._DS_Mascota">
+<summary>
+Control DS_Mascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._LblSelectServicio">
+<summary>
+Control LblSelectServicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._Ddl_SelectServicio">
+<summary>
+Control Ddl_SelectServicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._DS_Servicios">
+<summary>
+Control DS_Servicios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._LblNotas">
+<summary>
+Control LblNotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._TxtNotas">
+<summary>
+Control TxtNotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._BtnSave">
+<summary>
+Control BtnSave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Agenda._DS_RegistrarCita">
+<summary>
+Control DS_RegistrarCita.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet._Default1._lbl_Usuario">
+<summary>
+Control lbl_Usuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._PanelControl">
+<summary>
+Control PanelControl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnRegistrarEmpleado">
+<summary>
+Control BtnRegistrarEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblRegEmpleado">
+<summary>
+Control LblRegEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnBuscarEmpleado">
+<summary>
+Control BtnBuscarEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblBusEmpleado">
+<summary>
+Control LblBusEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnEditarEmpleado">
+<summary>
+Control BtnEditarEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModEmpleado">
+<summary>
+Control LblModEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._PanelSubirEmpelado">
+<summary>
+Control PanelSubirEmpelado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblRegNomEmpl">
+<summary>
+Control LblRegNomEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtRegNomEmpl">
+<summary>
+Control TxtRegNomEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblRegAppEmpl">
+<summary>
+Control LblRegAppEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtRegAppEmpl">
+<summary>
+Control TxtRegAppEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblRegApmEmpl">
+<summary>
+Control LblRegApmEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtRegApmEmpl">
+<summary>
+Control TxtRegApmEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblRegPuestoEmpl">
+<summary>
+Control LblRegPuestoEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DdlRegPuestoEmpl">
+<summary>
+Control DdlRegPuestoEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DS_RegPuesto">
+<summary>
+Control DS_RegPuesto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblRegTelEmpl">
+<summary>
+Control LblRegTelEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtRegTelEmpl">
+<summary>
+Control TxtRegTelEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblRegMailEmpl">
+<summary>
+Control LblRegMailEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtRegMailEmpl">
+<summary>
+Control TxtRegMailEmpl.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnCanRegEmpelado">
+<summary>
+Control BtnCanRegEmpelado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnRegEmpleado">
+<summary>
+Control BtnRegEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DS_SubirEmpleado">
+<summary>
+Control DS_SubirEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._PanelConsultarEmpleado">
+<summary>
+Control PanelConsultarEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtBuscarPorNombre">
+<summary>
+Control TxtBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnBuscarPorNombre">
+<summary>
+Control BtnBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DS_ConsultarEmpleadosGV">
+<summary>
+Control DS_ConsultarEmpleadosGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnCanRegEmpelado0">
+<summary>
+Control BtnCanRegEmpelado0.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._PanelActualizarEmpleados">
+<summary>
+Control PanelActualizarEmpleados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DS_ModificarEmpleadoGV">
+<summary>
+Control DS_ModificarEmpleadoGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._GVModEmpleados">
+<summary>
+Control GVModEmpleados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DS_ModificarEmpleado">
+<summary>
+Control DS_ModificarEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnCerrarModificacion">
+<summary>
+Control BtnCerrarModificacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._PanelFromEditarEmpleado">
+<summary>
+Control PanelFromEditarEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarNumeroEmpleado">
+<summary>
+Control LblModificarNumeroEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtModificarNumeroEmpleado">
+<summary>
+Control TxtModificarNumeroEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarNombreEmpleado">
+<summary>
+Control LblModificarNombreEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtModificarNombreEmpleado">
+<summary>
+Control TxtModificarNombreEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarApellidoPaEmpleado">
+<summary>
+Control LblModificarApellidoPaEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtModificarApellidoPaEmpleado">
+<summary>
+Control TxtModificarApellidoPaEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarApellidoMaEmpleado">
+<summary>
+Control LblModificarApellidoMaEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtModificarApellidoMaEmpleado">
+<summary>
+Control TxtModificarApellidoMaEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarPuestoEmpleado">
+<summary>
+Control LblModificarPuestoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DdlModificarPuestoEmpleado">
+<summary>
+Control DdlModificarPuestoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DS_ModificarPuestoEmpleado">
+<summary>
+Control DS_ModificarPuestoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarTelefonoEmpleado">
+<summary>
+Control LblModificarTelefonoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtModificarTelefonoEmpleado">
+<summary>
+Control TxtModificarTelefonoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarCorreoEmpleado">
+<summary>
+Control LblModificarCorreoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtModificarCorreoEmpleado">
+<summary>
+Control TxtModificarCorreoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarEstadoEmpleado">
+<summary>
+Control LblModificarEstadoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DdlModificarEstadoEmpleado">
+<summary>
+Control DdlModificarEstadoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._DS_ModificarEstadoEmpleado">
+<summary>
+Control DS_ModificarEstadoEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._LblModificarFechaRegEmpleado">
+<summary>
+Control LblModificarFechaRegEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._TxtModificarFechaRegEmpleado">
+<summary>
+Control TxtModificarFechaRegEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnCerrarModMascota">
+<summary>
+Control BtnCerrarModMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Empleados._BtnActualizarMascota">
+<summary>
+Control BtnActualizarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login1._LoginForm">
+<summary>
+Control LoginForm.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login1._txtUsername">
+<summary>
+Control txtUsername.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login1._txtPassword">
+<summary>
+Control txtPassword.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login1._btnLogin">
+<summary>
+Control btnLogin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Login1._DS_Login">
+<summary>
+Control DS_Login.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._PnlAdminMascota">
+<summary>
+Control PnlAdminMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._ImgBtnSubirMascota">
+<summary>
+Control ImgBtnSubirMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblImgBtnSubirMascota">
+<summary>
+Control LblImgBtnSubirMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._ImgBtnConsultarMascota">
+<summary>
+Control ImgBtnConsultarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblImgBtnConsultarMascota">
+<summary>
+Control LblImgBtnConsultarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._ImgBtnEditarMascota">
+<summary>
+Control ImgBtnEditarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblImgBtnEditarMascota">
+<summary>
+Control LblImgBtnEditarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._PanelSubirMascota">
+<summary>
+Control PanelSubirMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblSubirNombreMascotas">
+<summary>
+Control LblSubirNombreMascotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._TxtSubirNombreMascota">
+<summary>
+Control TxtSubirNombreMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblSubirEspecieMascota">
+<summary>
+Control LblSubirEspecieMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlSubirEspecieMascota">
+<summary>
+Control DdlSubirEspecieMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_SubirEspeciMascota">
+<summary>
+Control DS_SubirEspeciMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblSubirRazaMascota">
+<summary>
+Control LblSubirRazaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlSubirRazaMascota">
+<summary>
+Control DdlSubirRazaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_SubirRazaMascota">
+<summary>
+Control DS_SubirRazaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblSubirEdadMascota">
+<summary>
+Control LblSubirEdadMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._TxtSubirEdadMascota">
+<summary>
+Control TxtSubirEdadMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblSubirAlergiaMascota">
+<summary>
+Control LblSubirAlergiaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlSubirAlergiaMascota">
+<summary>
+Control DdlSubirAlergiaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_SubirAlergiaMascota">
+<summary>
+Control DS_SubirAlergiaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblSubirPropietarioMascota">
+<summary>
+Control LblSubirPropietarioMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlSubirPropietarioMascota">
+<summary>
+Control DdlSubirPropietarioMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_SubirPropietarioMascota">
+<summary>
+Control DS_SubirPropietarioMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._BtnCancelarSubirMascota">
+<summary>
+Control BtnCancelarSubirMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._BtnSubirNuevaMascota">
+<summary>
+Control BtnSubirNuevaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_SubirMascota">
+<summary>
+Control DS_SubirMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._PanelConsultarMascotas">
+<summary>
+Control PanelConsultarMascotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._TxtBuscarPorNombre">
+<summary>
+Control TxtBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._BtnBuscarPorNombre">
+<summary>
+Control BtnBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_ConsultarMascotas">
+<summary>
+Control DS_ConsultarMascotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._GVConsultarMascotas">
+<summary>
+Control GVConsultarMascotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._BtnCerrarConlta">
+<summary>
+Control BtnCerrarConlta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._PanelModificarMascotas">
+<summary>
+Control PanelModificarMascotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_ModMascotaGV">
+<summary>
+Control DS_ModMascotaGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_ModificarMascota">
+<summary>
+Control DS_ModificarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._BtnCerrarModificacion">
+<summary>
+Control BtnCerrarModificacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._PanelFormEditarMascota">
+<summary>
+Control PanelFormEditarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModificarRegMascota">
+<summary>
+Control LblModificarRegMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._TxtModificarRegMascota">
+<summary>
+Control TxtModificarRegMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModificarNombreMascota">
+<summary>
+Control LblModificarNombreMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._TxtModificarNombreMascota">
+<summary>
+Control TxtModificarNombreMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModificarEspecieMascota">
+<summary>
+Control LblModificarEspecieMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlModificarEspecieMascota">
+<summary>
+Control DdlModificarEspecieMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_ModificarEspecieMascota">
+<summary>
+Control DS_ModificarEspecieMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModificarRazaMascota">
+<summary>
+Control LblModificarRazaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlModificarRazaMascota">
+<summary>
+Control DdlModificarRazaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_ModificarRazaMascota">
+<summary>
+Control DS_ModificarRazaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModifciarEdadMascota">
+<summary>
+Control LblModifciarEdadMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._TxtModifciarEdadMascota">
+<summary>
+Control TxtModifciarEdadMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModificarAlergiaMascota">
+<summary>
+Control LblModificarAlergiaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlModificarAlergiaMascota">
+<summary>
+Control DdlModificarAlergiaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_ModificarAlergiaMascota">
+<summary>
+Control DS_ModificarAlergiaMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModificarPropietarioMascota">
+<summary>
+Control LblModificarPropietarioMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DdlModificarPropietarioMascota">
+<summary>
+Control DdlModificarPropietarioMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._DS_ModificarPropietarioMascota">
+<summary>
+Control DS_ModificarPropietarioMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._LblModificarFechaRegMascota">
+<summary>
+Control LblModificarFechaRegMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._TxtModificarFechaRegMascota">
+<summary>
+Control TxtModificarFechaRegMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._BtnCerrarModMascota">
+<summary>
+Control BtnCerrarModMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Mascotas._BtnActualizarMascota">
+<summary>
+Control BtnActualizarMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._PnlAdminMedicamento">
+<summary>
+Control PnlAdminMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._ImgBtnRegMedicamento">
+<summary>
+Control ImgBtnRegMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblImgBtnRegMedicamento">
+<summary>
+Control LblImgBtnRegMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._ImgBtnBscMedicamento">
+<summary>
+Control ImgBtnBscMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblImgBtnBscMedicamento">
+<summary>
+Control LblImgBtnBscMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._ImgBtnModMedicamento">
+<summary>
+Control ImgBtnModMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblImgBtnModMedicamento">
+<summary>
+Control LblImgBtnModMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._PaneelNuevoMedicamento">
+<summary>
+Control PaneelNuevoMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblSubirNombreMedicamento">
+<summary>
+Control LblSubirNombreMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtSubirNombreMedicamento">
+<summary>
+Control TxtSubirNombreMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblSubirTipoProducto">
+<summary>
+Control LblSubirTipoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._DdlSubirTipoMedicamento">
+<summary>
+Control DdlSubirTipoMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._DS_SubirTipoMedicamento">
+<summary>
+Control DS_SubirTipoMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblSubirPrecioMedicamento">
+<summary>
+Control LblSubirPrecioMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtSubirPrecioMedicamento">
+<summary>
+Control TxtSubirPrecioMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblSubirUnidadesMedicamento">
+<summary>
+Control LblSubirUnidadesMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtSubirUnidadesMedicamento">
+<summary>
+Control TxtSubirUnidadesMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblSubirLoteMedicamento">
+<summary>
+Control LblSubirLoteMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtSubirLoteMedicamento">
+<summary>
+Control TxtSubirLoteMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblSubirFechaCducidadMedicamento">
+<summary>
+Control LblSubirFechaCducidadMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._txtSubirFechaCducidadMedicamento">
+<summary>
+Control txtSubirFechaCducidadMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblSubirImagenMedicamento">
+<summary>
+Control LblSubirImagenMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._FUPSubirImagenMedicamento">
+<summary>
+Control FUPSubirImagenMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._BtnCancelarNuevoProducto">
+<summary>
+Control BtnCancelarNuevoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._BtnSubirNuevoProducto">
+<summary>
+Control BtnSubirNuevoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._DS_SubirMedicamento">
+<summary>
+Control DS_SubirMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._PanelConsultarMedicamentos">
+<summary>
+Control PanelConsultarMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtBuscarPorNombre">
+<summary>
+Control TxtBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._BtnBuscarPorNombre">
+<summary>
+Control BtnBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._DS_ConsultarMedicamentos">
+<summary>
+Control DS_ConsultarMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._GVMedicamentos">
+<summary>
+Control GVMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._BtnCerrarConlta">
+<summary>
+Control BtnCerrarConlta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._PanelEditarMedicamentos">
+<summary>
+Control PanelEditarMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._DS_EditarMedicamentoGV">
+<summary>
+Control DS_EditarMedicamentoGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._GVEditarMedicamento">
+<summary>
+Control GVEditarMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._DS_EditarMedicamento">
+<summary>
+Control DS_EditarMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._BtnCerrarModificacion">
+<summary>
+Control BtnCerrarModificacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._PanelFrmEditarMedicamento">
+<summary>
+Control PanelFrmEditarMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblEditarSerieMed">
+<summary>
+Control LblEditarSerieMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtEditarSerieMed">
+<summary>
+Control TxtEditarSerieMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblEditarNombreMed">
+<summary>
+Control LblEditarNombreMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtEditarNombreMed">
+<summary>
+Control TxtEditarNombreMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblEditarTipoMed">
+<summary>
+Control LblEditarTipoMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._DdlEditarTipoMed">
+<summary>
+Control DdlEditarTipoMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblEditarPrecioMed">
+<summary>
+Control LblEditarPrecioMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtEditarPrecioMed">
+<summary>
+Control TxtEditarPrecioMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblEditarUnidadesMed">
+<summary>
+Control LblEditarUnidadesMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtEditarUnidadesMed">
+<summary>
+Control TxtEditarUnidadesMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblEditarLoteMed">
+<summary>
+Control LblEditarLoteMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtEditarLoteMed">
+<summary>
+Control TxtEditarLoteMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._LblEditarCaducidadMed">
+<summary>
+Control LblEditarCaducidadMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._TxtEditarCaducidadMed">
+<summary>
+Control TxtEditarCaducidadMed.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._BtnCerrarModMedicamento">
+<summary>
+Control BtnCerrarModMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Medicamentos._BtnActualizarMedicamento">
+<summary>
+Control BtnActualizarMedicamento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._PnlAdminProductos">
+<summary>
+Control PnlAdminProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._ImgBtnRegProducto">
+<summary>
+Control ImgBtnRegProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblRegProducto">
+<summary>
+Control LblRegProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._ImgBtnBusProducto">
+<summary>
+Control ImgBtnBusProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblBusProducto">
+<summary>
+Control LblBusProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._ImgBtnModProducto">
+<summary>
+Control ImgBtnModProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblModProducto">
+<summary>
+Control LblModProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._PanelNuevoProducto">
+<summary>
+Control PanelNuevoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblSubirNombreProducto">
+<summary>
+Control LblSubirNombreProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtSubirNombreProducto">
+<summary>
+Control TxtSubirNombreProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblSubirTipoProducto">
+<summary>
+Control LblSubirTipoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DdlSubirTipoProducto">
+<summary>
+Control DdlSubirTipoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DS_SubirTipoProducto">
+<summary>
+Control DS_SubirTipoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblSubirDescripcionProductor">
+<summary>
+Control LblSubirDescripcionProductor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtSubirDescripcionProducto">
+<summary>
+Control TxtSubirDescripcionProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblSubirPrecioProducto">
+<summary>
+Control LblSubirPrecioProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtSubirPrecioProducto">
+<summary>
+Control TxtSubirPrecioProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblSubirImagenProducto">
+<summary>
+Control LblSubirImagenProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._FUPSubirImagenProducto">
+<summary>
+Control FUPSubirImagenProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._BtnCancelarNuevoProducto">
+<summary>
+Control BtnCancelarNuevoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._BtnSubirNuevoProducto">
+<summary>
+Control BtnSubirNuevoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DS_SubirProdcuto">
+<summary>
+Control DS_SubirProdcuto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._PanelBuscarProducto">
+<summary>
+Control PanelBuscarProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtBuscarPorNombre">
+<summary>
+Control TxtBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._BtnBuscarPorNombre">
+<summary>
+Control BtnBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DS_ConsultarProductos">
+<summary>
+Control DS_ConsultarProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._GVConsultarProductos">
+<summary>
+Control GVConsultarProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._BtnCerrarConlta">
+<summary>
+Control BtnCerrarConlta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._PanelEditarProducto">
+<summary>
+Control PanelEditarProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DS_EditarProductoGV">
+<summary>
+Control DS_EditarProductoGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DS_EditarProducto">
+<summary>
+Control DS_EditarProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._BtnCerrarModificacion">
+<summary>
+Control BtnCerrarModificacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._PanelFrmEditarProducto">
+<summary>
+Control PanelFrmEditarProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblEditarIdProducto">
+<summary>
+Control LblEditarIdProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtEditarIdProducto">
+<summary>
+Control TxtEditarIdProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblEditarNombreProducto">
+<summary>
+Control LblEditarNombreProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtEditarNombreProducto">
+<summary>
+Control TxtEditarNombreProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblEditarTipoProducto">
+<summary>
+Control LblEditarTipoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DdlEditarTipoProducto">
+<summary>
+Control DdlEditarTipoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._DS_EditarTipoProducto">
+<summary>
+Control DS_EditarTipoProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblEditarDescProducto">
+<summary>
+Control LblEditarDescProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtEditarDescProducto">
+<summary>
+Control TxtEditarDescProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblEditarPrecioProducto">
+<summary>
+Control LblEditarPrecioProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._TxtEditarPrecioProducto">
+<summary>
+Control TxtEditarPrecioProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblEditarImagenProducto">
+<summary>
+Control LblEditarImagenProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._FileUploadImagenProducto">
+<summary>
+Control FileUploadImagenProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._LblSubirMismaImagen">
+<summary>
+Control LblSubirMismaImagen.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._BtnCerrarModProducto">
+<summary>
+Control BtnCerrarModProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productoss._BtnActualizarProdcuto">
+<summary>
+Control BtnActualizarProdcuto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._ImgBtnVolver">
+<summary>
+Control ImgBtnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._PnlAdminUsuarios">
+<summary>
+Control PnlAdminUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._ImgBtnRegUsuario">
+<summary>
+Control ImgBtnRegUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblRegUsuario">
+<summary>
+Control LblRegUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._ImgBtnBusUsuario">
+<summary>
+Control ImgBtnBusUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblBusUsuario">
+<summary>
+Control LblBusUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._ImgBtnModUsuario">
+<summary>
+Control ImgBtnModUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblModUsuario">
+<summary>
+Control LblModUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._PaneelNuevoUsuario">
+<summary>
+Control PaneelNuevoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblsubirEmpleadoID">
+<summary>
+Control LblsubirEmpleadoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DdlSubirEmpleadoID">
+<summary>
+Control DdlSubirEmpleadoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_SubirIDEmpleado">
+<summary>
+Control DS_SubirIDEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblSubirUsuario">
+<summary>
+Control LblSubirUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._TxtSubirUsuario">
+<summary>
+Control TxtSubirUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblSubirPassword">
+<summary>
+Control LblSubirPassword.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._TxtSubirPassword">
+<summary>
+Control TxtSubirPassword.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblSubirRol">
+<summary>
+Control LblSubirRol.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DdlSubirRol">
+<summary>
+Control DdlSubirRol.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_SubirRolUsuario">
+<summary>
+Control DS_SubirRolUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._BtnCancelarNuevoUser">
+<summary>
+Control BtnCancelarNuevoUser.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._BtnSubirNuevoUser">
+<summary>
+Control BtnSubirNuevoUser.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_RegistrarUsuario">
+<summary>
+Control DS_RegistrarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._PanelConsultarUsuarios">
+<summary>
+Control PanelConsultarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._TxtBuscarPorNombre">
+<summary>
+Control TxtBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._BtnBuscarPorNombre">
+<summary>
+Control BtnBuscarPorNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_ConsultarUsuarios">
+<summary>
+Control DS_ConsultarUsuarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._GVConsultarEmpleado">
+<summary>
+Control GVConsultarEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._BtnCerrarConlta">
+<summary>
+Control BtnCerrarConlta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._PanelEditarUsuario">
+<summary>
+Control PanelEditarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_EditarUsuariosGV">
+<summary>
+Control DS_EditarUsuariosGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._GVModUsers">
+<summary>
+Control GVModUsers.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_EditarUsuario">
+<summary>
+Control DS_EditarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._BtnCerrarModificacion">
+<summary>
+Control BtnCerrarModificacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._PanelFormditarUsuario">
+<summary>
+Control PanelFormditarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._Aux">
+<summary>
+Control Aux.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblModificarNumeroUsuario">
+<summary>
+Control LblModificarNumeroUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._TxtModificarNumeroUsuario">
+<summary>
+Control TxtModificarNumeroUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblModificarEmpleadoUsuario">
+<summary>
+Control LblModificarEmpleadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DdlModificarEmpleadoUsuario">
+<summary>
+Control DdlModificarEmpleadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_ModificarEmpleadoUsuario">
+<summary>
+Control DS_ModificarEmpleadoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblModificarNombreUsuario">
+<summary>
+Control LblModificarNombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._TxtModificarNombreUsuario">
+<summary>
+Control TxtModificarNombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblModificarPasswordUsuario">
+<summary>
+Control LblModificarPasswordUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._TxtModificarPasswordUsuario">
+<summary>
+Control TxtModificarPasswordUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblModificarCargoUsuario">
+<summary>
+Control LblModificarCargoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DdlModificarCargoUsuario">
+<summary>
+Control DdlModificarCargoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._DS_ModificarCargoUsuario">
+<summary>
+Control DS_ModificarCargoUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._LblModificarFechaRegUsuario">
+<summary>
+Control LblModificarFechaRegUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._TxtModificarFechaRegUsuario">
+<summary>
+Control TxtModificarFechaRegUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._BtnCerrarModUsuario">
+<summary>
+Control BtnCerrarModUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Usuariosaspx._BtnActualizarUsuario">
+<summary>
+Control BtnActualizarUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Ventas._ddlCategorias">
+<summary>
+Control ddlCategorias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Ventas._PnlGenerales">
+<summary>
+Control PnlGenerales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Ventas._gvProductos">
+<summary>
+Control gvProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Ventas._DS_ProductosGenerales">
+<summary>
+Control DS_ProductosGenerales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Ventas._PnlMedicamentos">
+<summary>
+Control PnlMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Ventas._gvMedicamentos">
+<summary>
+Control gvMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Ventas._DS_Medicamentos">
+<summary>
+Control DS_Medicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productos._ddlCategorias">
+<summary>
+Control ddlCategorias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productos._PnlGenerales">
+<summary>
+Control PnlGenerales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productos._gvProductos">
+<summary>
+Control gvProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productos._DS_ProductosGenerales">
+<summary>
+Control DS_ProductosGenerales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productos._PnlMedicamentos">
+<summary>
+Control PnlMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productos._gvMedicamentos">
+<summary>
+Control gvMedicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Productos._DS_Medicamentos">
+<summary>
+Control DS_Medicamentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._LblFechaInicio">
+<summary>
+Control LblFechaInicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._TxtFechaSeleccionada">
+<summary>
+Control TxtFechaSeleccionada.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._LblSelectHora">
+<summary>
+Control LblSelectHora.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._TxtSelectHora">
+<summary>
+Control TxtSelectHora.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._LblSelectPropietarios">
+<summary>
+Control LblSelectPropietarios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._Ddl_SelectPropietario">
+<summary>
+Control Ddl_SelectPropietario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._DS_Propietario">
+<summary>
+Control DS_Propietario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._LblSelectMascota">
+<summary>
+Control LblSelectMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._Ddl_SelectMascota">
+<summary>
+Control Ddl_SelectMascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._DS_Mascota">
+<summary>
+Control DS_Mascota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._LblSelectServicio">
+<summary>
+Control LblSelectServicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._Ddl_SelectServicio">
+<summary>
+Control Ddl_SelectServicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._DS_Servicios">
+<summary>
+Control DS_Servicios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._LblNotas">
+<summary>
+Control LblNotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._TxtNotas">
+<summary>
+Control TxtNotas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._BtnSave">
+<summary>
+Control BtnSave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Reservaciones._DS_RegistrarCita">
+<summary>
+Control DS_RegistrarCita.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.SiteMaster._CerrarSesionButton">
+<summary>
+Control CerrarSesionButton.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.SiteMaster._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.SiteAdmin._CerrarSesionButton">
+<summary>
+Control CerrarSesionButton.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.SiteAdmin._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Site_Mobile._Head1">
+<summary>
+Control Head1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Site_Mobile._HeadContent">
+<summary>
+Control HeadContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Site_Mobile._form1">
+<summary>
+control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Site_Mobile._FeaturedContent">
+<summary>
+Control FeaturedContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Site_Mobile._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:HuellaVet.Site_Mobile._ViewSwitcher1">
+<summary>
+Control ViewSwitcher1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
